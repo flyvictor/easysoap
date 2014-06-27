@@ -27,7 +27,9 @@
 
     //soap client options
     var clientOptions = {
-        secure : true/false //is https or http
+        secure : true/false, //is https or http
+        // optional timeout (milliseconds)
+        timeout : 5000
     };
 
     //create new soap client
