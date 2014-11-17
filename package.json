@@ -2,10 +2,10 @@
   "name": "flyvictor-easysoap",
   "description": "A simple to use Soap Client for Node.js",
   "author": {
-    "name": "Michael Röber",
-    "email": "moszeed@gmail.com"
+    "name": "Reza Jelveh",
+    "email": ""
   },
-  "version": "0.6.15",
+  "version": "0.6.16",
   "main": "./index",
   "dependencies": {
     "moment": "^2.8.3",
