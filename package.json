@@ -5,7 +5,7 @@
     "name": "Reza Jelveh",
     "email": ""
   },
-  "version": "0.6.16",
+  "version": "0.6.17",
   "main": "./index",
   "dependencies": {
     "moment": "^2.8.3",
@@ -20,11 +20,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/moszeed/easysoap.git"
+    "url": "https://github.com/flyvictor-easysoap/easysoap.git"
   },
   "license": {
     "type": "MIT",
-    "url": "https://raw.github.com/moszeed/easysoap/master/LICENSE"
+    "url": "https://raw.github.com/flyvictor-easysoap/easysoap/master/LICENSE"
   },
   "contributors": [
     {
