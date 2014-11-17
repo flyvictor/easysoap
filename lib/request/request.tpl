@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope
-    xmlns:SOAP-ENV="<%= envelope.soap_env%>"
+<soap:Envelope
+    xmlns:soap="<%= envelope.soap_env%>"
     <% if (envelope.namespaces !== null) { %>
         <% _.each(envelope.namespaces, function(namespace) { %>
             <% if (namespace.full !== void 0) { %>
@@ -10,14 +10,14 @@
     <% } %>>
 
     <% if (head !== null) { %>
-        <SOAP-ENV:Header>
+        <soap:Header>
             <% _.each(head, function(headItem) { %>
                 <%= headItem%>
             <% }); %>
-        </SOAP-ENV:Header>
+        </soap:Header>
     <% } %>
 
-    <SOAP-ENV:Body>
+    <soap:Body>
         <% if (body.namespace !== null) {%>
             <<%= body.namespace%>:<%=body.method%>>
         <% } else {%>
@@ -33,6 +33,6 @@
         <% } else { %>
             </<%=body.method%>>
         <% } %>
-    </SOAP-ENV:Body>
+    </soap:Body>
 
-</SOAP-ENV:Envelope>
+</soap:Envelope>
