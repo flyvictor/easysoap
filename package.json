@@ -13,6 +13,10 @@
     "underscore": "1.5.2",
     "xmldoc": "0.1.2"
   },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "underscore": "1.5.2"
+  },
   "keywords": [
     "soap",
     "wsdl"
@@ -24,6 +28,9 @@
   "license": {
     "type": "MIT",
     "url": "https://raw.github.com/flyvictor-easysoap/easysoap/master/LICENSE"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive -R spec"
   },
   "contributors": [
     {
